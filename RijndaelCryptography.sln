@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RijndaelCryptography", "RijndaelCryptography\RijndaelCryptography.csproj", "{6720A8E8-AFE5-49EB-87C3-77792E9E0E29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RijndaelCryptography.Framework", "RijndaelCryptography.Framework\RijndaelCryptography.Framework.csproj", "{1D629B4D-E1E3-4A6F-BC44-EA32B22C1995}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6720A8E8-AFE5-49EB-87C3-77792E9E0E29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6720A8E8-AFE5-49EB-87C3-77792E9E0E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6720A8E8-AFE5-49EB-87C3-77792E9E0E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6720A8E8-AFE5-49EB-87C3-77792E9E0E29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D629B4D-E1E3-4A6F-BC44-EA32B22C1995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D629B4D-E1E3-4A6F-BC44-EA32B22C1995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D629B4D-E1E3-4A6F-BC44-EA32B22C1995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D629B4D-E1E3-4A6F-BC44-EA32B22C1995}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10911A41-C35C-494F-8B9F-8A1D2DBFDC36}
+	EndGlobalSection
+EndGlobal

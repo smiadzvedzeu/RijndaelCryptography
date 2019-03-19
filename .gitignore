@@ -3,3 +3,6 @@
 ################################################################################
 
 /RijndaelCryptography/bin
+/RijndaelCryptography/obj/Debug
+/RijndaelCryptography.Framework/bin/Debug
+/RijndaelCryptography.Framework/obj/Debug

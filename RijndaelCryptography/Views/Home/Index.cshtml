@@ -1,0 +1,44 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>ASP.NET</h1>
+</div>
+
+<script type="text/javascript">
+    var encodeUrl = '@Url.Action("EncodeLink", "Home")';
+    var decodeUrl = '@Url.Action("DecryptHash", "Home")';
+</script>
+
+<div class="row">
+    <table class="table-form">
+        <tr>
+            <td>
+                Base Url:
+                <p>F.e. @("www.send.com?userName=admin&userPassword=12345")</p>
+            </td>
+            <td></td>
+            <td>Encoded Url:</td>
+        </tr>
+        <tr>
+            <td>
+                @Html.TextArea("baseUrlTextArea", new { @style = "width : 500px; height : 120px; placeholder='www.send.com?userName=admin&userPassword=12345'" })
+            </td>
+            <td style="width : 100px">
+                <button class="wp-button" style="width : 100px" onclick="lgEncodeFromTextArea();">Encode ------ ></button>
+                <button class="wp-button" style="width : 100px" onclick="lgClearAllUrl();">< -  Clear  - ></button>
+                <button class="wp-button" style="width : 100px" onclick="lgDecodeFromTextArea();">< ---- Decode</button>
+            </td>
+            <td>
+                @Html.TextArea("encodedUrlTextArea", new { @style = "width : 500px; height : 120px" })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Enter Email:
+                <input id="email" type="text" value="">
+            </td>
+        </tr>
+    </table>
+</div>
